@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding:utf-8 -*-
 
-__author__ = "Adrian Wang"
+__author__ = 'Adrian Wang'
 
 import os
 import requests
@@ -53,6 +53,7 @@ def get_all_photo_urls():
         if int(data['status']) != 100 and int(data['status']) != 200:
             break
 
+        # TODO extract shot time and date
         photos = data['result']['photos']
         print photos
         if len(photos) == 0:
