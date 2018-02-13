@@ -3,4 +3,6 @@
 .idea/
 config.py
 *.pyc
+images/
+downloads/
 

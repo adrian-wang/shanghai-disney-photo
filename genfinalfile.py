@@ -9,7 +9,7 @@ from disneyphoto import folder
 from disneyphoto import get_temp_file_names
 
 
-folder2 = 'image3'
+folder2 = 'images'
 
 
 def get_downloaded_file_names():

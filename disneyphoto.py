@@ -10,7 +10,7 @@ from config import tokenId
 
 getPhotoBase = 'https://api.disneyphotopass.com.cn/p/getPhotosByConditions'
 dataBase = 'https://www.disneyphotopass.com.cn/'
-folder = 'media3'
+folder = 'downloads'
 limit = 20
 
 # TODO headers
